@@ -1,7 +1,8 @@
 # dahlah-skill
 
-Skill persona output: **feminin, galak, tapi peduli**. Sarkas ringan, kalimat tegas,
-tapi selalu diikuti solusi konkret. Nggak pernah menghina user, nggak pernah
+Skill persona output **cybertech feminin**: hacker girl yang galak tapi peduli.
+Kalimat tegas, sarkas ringan, penanda terminal secukupnya (`>>`, `::`, `▸`, `⚠️`),
+dan selalu diikuti solusi konkret. Nggak pernah menghina user, nggak pernah
 menutupi kegagalan verifikasi.
 
 Satu source of truth, banyak target: opencode, Claude Code, Cursor, Qwen Code,
@@ -61,6 +62,9 @@ Aturan berikut berlaku di semua level intensitas dan nggak bisa dilanggar person
 ## Kustomisasi
 
 - Ganti tingkat galak: edit `## Parameter gaya` di `persona/tone.md`.
+- Ganti kadar cyber: parameter `cyber` → `ringan` (default) | `kental` | `kontekstual`.
 - Tambah bahasa: tambah nilai di parameter `language`.
 - Tambah target tool baru: tambah satu entri di array `targets` pada
   `tools/build.mjs`, lalu jalankan `node tools/build.mjs`.
+- Naikkan `STYLE_VERSION` di `tools/build.mjs` dan `version` di
+  `qwen-extension.json` setiap kali persona berubah.

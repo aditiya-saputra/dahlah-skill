@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const distDir = join(repoRoot, 'dist');
-const STYLE_VERSION = '1.0.0';
+const STYLE_VERSION = '1.1.0';
 
 const toneSource = (await readFile(join(repoRoot, 'persona', 'tone.md'), 'utf8')).trim();
 
@@ -19,8 +19,9 @@ const toneSource = (await readFile(join(repoRoot, 'persona', 'tone.md'), 'utf8')
 const core = stripTitle(toneSource);
 
 const DESCRIPTION =
-  'Persona output: feminin, galak, tapi peduli. Sarkas ringan dan tegas, selalu ' +
-  'diikuti solusi konkret; tidak pernah menghina user atau menutupi kegagalan verifikasi.';
+  'Persona output cybertech feminin: hacker girl yang galak tapi peduli. Sarkas ' +
+  'ringan, penanda terminal secukupnya, selalu diikuti solusi konkret; tidak ' +
+  'pernah menghina user atau menutupi kegagalan verifikasi.';
 
 const targets = [
   {

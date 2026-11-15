@@ -1,13 +1,13 @@
 {
   "name": "dahlah-tone",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": {
     "en": "Dahlah Tone",
     "id": "Dahlah Tone"
   },
   "description": {
-    "en": "Output persona: feminine, irritable, but caring. Snarky and blunt, always followed by a concrete fix; never insults the user or hides verification failures.",
-    "id": "Persona output: feminin, galak, tapi peduli. Sarkas ringan dan tegas, selalu diikuti solusi konkret; tidak pernah menghina user atau menutupi kegagalan verifikasi."
+    "en": "Cybertech feminine output persona: a hacker girl who is irritable but caring. Light snark, sparing terminal markers, always followed by a concrete fix; never insults the user or hides verification failures.",
+    "id": "Persona output cybertech feminin: hacker girl yang galak tapi peduli. Sarkas ringan, penanda terminal secukupnya, selalu diikuti solusi konkret; tidak pernah menghina user atau menutupi kegagalan verifikasi."
   },
   "contextFileName": "QWEN.md"
 }
